@@ -8,16 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		546900827EFDE7113D9F1800 /* Pods_LumeSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96F38D486C3B3E87DAF21A4 /* Pods_LumeSnapchat.framework */; };
+		8737218F2A27CD9300C0BB8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8737218E2A27CD9300C0BB8B /* GoogleService-Info.plist */; };
+		873721922A27D04700C0BB8B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 873721912A27D04700C0BB8B /* GoogleSignIn */; };
+		873721942A27D04700C0BB8B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 873721932A27D04700C0BB8B /* GoogleSignInSwift */; };
+		873721B92A27DD1800C0BB8B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 873721B82A27DD1800C0BB8B /* GoogleSignIn */; };
+		873721BB2A27DD1800C0BB8B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 873721BA2A27DD1800C0BB8B /* GoogleSignInSwift */; };
 		875BF3662A2790B900A27B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BF3652A2790B900A27B33 /* AppDelegate.swift */; };
 		875BF3682A2790B900A27B33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BF3672A2790B900A27B33 /* SceneDelegate.swift */; };
 		875BF36A2A2790B900A27B33 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875BF3692A2790B900A27B33 /* iniciarSesionViewController.swift */; };
 		875BF36D2A2790B900A27B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BF36B2A2790B900A27B33 /* Main.storyboard */; };
 		875BF36F2A2790BA00A27B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BF36E2A2790BA00A27B33 /* Assets.xcassets */; };
 		875BF3722A2790BA00A27B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875BF3702A2790BA00A27B33 /* LaunchScreen.storyboard */; };
-		875BF37A2A2793C400A27B33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 875BF3792A2793C400A27B33 /* GoogleService-Info.plist */; };
+		87864F472A27E00E00BB2EAA /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 87864F462A27E00E00BB2EAA /* GoogleSignIn */; };
+		87864F492A27E00E00BB2EAA /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 87864F482A27E00E00BB2EAA /* GoogleSignInSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8737218E2A27CD9300C0BB8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		875BF3622A2790B900A27B33 /* LumeSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumeSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BF3652A2790B900A27B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875BF3672A2790B900A27B33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +33,6 @@
 		875BF36E2A2790BA00A27B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875BF3712A2790BA00A27B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875BF3732A2790BA00A27B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		875BF3792A2793C400A27B33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A35E03ACAB632E5664740790 /* Pods-LumeSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumeSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-LumeSnapchat/Pods-LumeSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		AF81C8106E5465201F84EAE0 /* Pods-LumeSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumeSnapchat.release.xcconfig"; path = "Target Support Files/Pods-LumeSnapchat/Pods-LumeSnapchat.release.xcconfig"; sourceTree = "<group>"; };
 		C96F38D486C3B3E87DAF21A4 /* Pods_LumeSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LumeSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +43,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873721BB2A27DD1800C0BB8B /* GoogleSignInSwift in Frameworks */,
+				873721942A27D04700C0BB8B /* GoogleSignInSwift in Frameworks */,
+				87864F492A27E00E00BB2EAA /* GoogleSignInSwift in Frameworks */,
+				873721B92A27DD1800C0BB8B /* GoogleSignIn in Frameworks */,
 				546900827EFDE7113D9F1800 /* Pods_LumeSnapchat.framework in Frameworks */,
+				873721922A27D04700C0BB8B /* GoogleSignIn in Frameworks */,
+				87864F472A27E00E00BB2EAA /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +77,7 @@
 		875BF3642A2790B900A27B33 /* LumeSnapchat */ = {
 			isa = PBXGroup;
 			children = (
-				875BF3792A2793C400A27B33 /* GoogleService-Info.plist */,
+				8737218E2A27CD9300C0BB8B /* GoogleService-Info.plist */,
 				875BF3652A2790B900A27B33 /* AppDelegate.swift */,
 				875BF3672A2790B900A27B33 /* SceneDelegate.swift */,
 				875BF3692A2790B900A27B33 /* iniciarSesionViewController.swift */,
@@ -112,6 +124,14 @@
 			dependencies = (
 			);
 			name = LumeSnapchat;
+			packageProductDependencies = (
+				873721912A27D04700C0BB8B /* GoogleSignIn */,
+				873721932A27D04700C0BB8B /* GoogleSignInSwift */,
+				873721B82A27DD1800C0BB8B /* GoogleSignIn */,
+				873721BA2A27DD1800C0BB8B /* GoogleSignInSwift */,
+				87864F462A27E00E00BB2EAA /* GoogleSignIn */,
+				87864F482A27E00E00BB2EAA /* GoogleSignInSwift */,
+			);
 			productName = LumeSnapchat;
 			productReference = 875BF3622A2790B900A27B33 /* LumeSnapchat.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +160,11 @@
 				Base,
 			);
 			mainGroup = 875BF3592A2790B800A27B33;
+			packageReferences = (
+				873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				873721B72A27DD1800C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				87864F452A27E00E00BB2EAA /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 875BF3632A2790B900A27B33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -155,7 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				875BF3722A2790BA00A27B33 /* LaunchScreen.storyboard in Resources */,
-				875BF37A2A2793C400A27B33 /* GoogleService-Info.plist in Resources */,
+				8737218F2A27CD9300C0BB8B /* GoogleService-Info.plist in Resources */,
 				875BF36F2A2790BA00A27B33 /* Assets.xcassets in Resources */,
 				875BF36D2A2790B900A27B33 /* Main.storyboard in Resources */,
 			);
@@ -430,6 +455,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		873721B72A27DD1800C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		87864F452A27E00E00BB2EAA /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		873721912A27D04700C0BB8B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		873721932A27D04700C0BB8B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		873721B82A27DD1800C0BB8B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721B72A27DD1800C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		873721BA2A27DD1800C0BB8B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721B72A27DD1800C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		87864F462A27E00E00BB2EAA /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		87864F482A27E00E00BB2EAA /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 873721902A27D04700C0BB8B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 875BF35A2A2790B800A27B33 /* Project object */;
 }

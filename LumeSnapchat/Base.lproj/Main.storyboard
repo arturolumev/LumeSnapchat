@@ -65,6 +65,15 @@
                                     <action selector="IniciarSesionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1N-Lq-jRx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5P-FM-8md">
+                                <rect key="frame" x="113" y="527" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Iniciar Sesion con Google"/>
+                                <connections>
+                                    <action selector="googleButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5i-3y-hAF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -85,6 +94,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="R9F-lp-DyS" id="ZKl-XK-pFh"/>
+                        <outlet property="googleButton" destination="F5P-FM-8md" id="9Rd-XW-Z2O"/>
                         <outlet property="passwordTextField" destination="e1O-ef-AuT" id="z6u-so-9jv"/>
                     </connections>
                 </viewController>
